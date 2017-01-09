@@ -1,5 +1,313 @@
 html, body {
 	height: 100%;
-	color: #168de2;
+	color:#168de2;
+	padding: 0;
+	margin: 0;
 }
+ body {
+	background: url("image/fon.png") no-repeat;
+	overflow: hidden;
+	 }
+.header {
+	border-bottom: 1px solid grey;	
+	margin: 0;
+	padding: 5px;
+	max-height: 30px;
+}
+a {
+	text-decoration: none;
+	color:#168de2;
+	font-size: small;
+}
+li {
+    list-style-type: none; 
+}
+   ul {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+.enter_mail {
+	float: right;
+}
+
+.left_column{
+	width: 307px;
+	float: left;
+	margin: 10px 0px 20px 310px;
+}
+.logo_section {
+	background: url("image/logo.png") no-repeat;
+	height: 80px;
+}
+
+.mail_enter_section {
+	margin-top: 25px;
+	border: 1px solid grey;
+	padding: 10px;
+}
+.mail_enter_section_icon {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	
+}
+.icon_mail {
+	background: url("image/icon.png") no-repeat;
+}
+.pochta {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+.cloud_img {
+	background: url("image/icon.png") no-repeat;
+	float: right;
+}
+.kalendar_img {
+		background: url("image/icon.png") no-repeat;
+		float: right;
+		margin-left: 10px;
+}
+.log_in {
+	color: grey;
+	margin-left: 20px;
+}
+.log_out {
+	color: grey;
+	margin-left: 20px;
+}
+.mini_avatar {
+	float : left;
+	width: 47px;
+	height: 47px;
+	background: url("image/mini_avatar.png") no-repeat;
+	margin: 0 25px;
+	
+}
+}
+.left_column_social_section {
+	margin-left: 10px;
+}
+.social_section {
+	margin-top: 25px;
+}
+.left_column_social_section .social_section div {
+	display: inline-block;
+	background: url("https://limg.imgsmail.ru/splash/v/i/icons-6f9d29f6f2.v17.png") no-repeat ;
+	width: 20px;
+	height: 20px;
+	}
+
+.social_section a {
+		font-size: 20px;
+		margin: 0;
+		padding: 0;
+	}
+
+.left_column_social_section .icq  div{ 
+	background-position: 0px -79px;
+}
+.left_column_social_section .my_world div { 
+	background-position: 0px -39px;
+}
+.left_column_social_section .ok div { 
+	background-position: 0px -59px;
+}
+.left_column_social_section .agent_mail div{ 
+	background-position: 0px -19px;
+}
+.left_column_social_section .icq div{ 
+	background-position: 0px -80px;
+}
+
+.main_section {
+	float: right;
+	width: 100%;
+	max-width: 972px;
+	margin-right: 325px;
+	margin-top: 10px
+}
+
+.main_section .search_section ul {
+	padding: 0;
+	margin: 0;
+}
+
+.main_section .search_section li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;	
+}
+
+.main_section .search_section ul li:nth-child(1) a{
+	font-size: 20px;
+}
+
+.main_section form{
+	width: 100%;
+	
+}
+
+.main_section form .text-query{
+	width: 800px;
+	height: 26px;
+	border: 1px solid grey;
+}
+
+.main_section form .submit-query{
+	width: 166px;
+	background: #ffa930;
+	height: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 1px solid #ffa930;
+
+}
+.main_section  table {
+	background: lightgrey;
+	border-collapse: collapse;
+	position: relative;
+	
+}
+
+.main_section .main_section_news  .game_section {
+	float: right;
+}
+
+.main_section .main_section_news  .game_section a {
+	display: block;
+}
+
+.main_section .table_news td {
+	width:67px;
+	padding: 0 10px;
+	height: 23px;
+	border: 1px solid grey;
+	color: grey; 
+} 
+
+.main_section .table_news a {
+	color: grey; 
+}
+.main_section .main_section_news .list_of_news {
+	width: 704px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.main_section .main_section_news .list_of_news li{
+	margin: 10px 0 0 0;
+	
+}
+
+.main_section .main_section_news .list_of_news li div {
+	background: url("image/main_section_news.png") no-repeat;
+	width: 120px;
+	height: 60px;
+	float: left;
+}
+
+.main_section .main_section_news .list_of_news li a span {
+	color: grey;
+}
+
+.main_section .main_section_news_data p {
+	margin-top: 40px;
+
+}
+.main_section_news_data .main_section_news_data_inform {
+	display: inline-block;
+	width: 200px;
+}
+
+.main_section_news_data .wether_section div {
+	float: left;
+	width: 200px;
+	height: 45px;
+	background: url("image/wether_section.png") no-repeat;
+	margin: 0 0 5px 0;
+	padding: 0;
+	padding-left: 45px;
+}
+
+.main_section_news_data .main_section_news_data_inform div p {
+	margin: 0px;
+	padding: 0;
+	color: grey;
+}
+
+.main_section_news_data .main_section_news_data_inform p {
+	margin: 5px;
+	padding: 0;
+}
+
+.main_section_news_data .wether_section span {
+	font-size: 24px;
+}
+
+.main_section_news_data .trade_section div {
+	width: 125px;
+	height: 45px;
+	margin: 5px 0;
+	padding: 0;
+	border-bottom: 1px solid grey;
+
+}
+
+.main_section_news_data .goroskop_section div {
+	float: left;
+	width: 200px;
+	height: 45px;
+	background: url("image/goroskop.png") no-repeat;
+	margin: 0 0 5px 0;
+	padding: 0;
+	padding-left: 45px;
+}
+.game_section {
+	
+	position: absolute;
+	right: 325px;
+	top: 150px;
+}
+.game_section p {
+	font-size: 20px;
+}
+
+.game_big_img {
+	width: 70px;
+	height: 50px;
+	background: url("image/goroskop.png") no-repeat;
+}
+.game_section .game_armata {
+	display: inline-block;
+	
+}
+.game_section .game_war  {
+	display: inline-block;
+	
+}
+.game_1000 {
+	margin-right: 20px;
+}
+.game_1000 img{
+		float: left;
+	}
+.game_imp img {
+	float: left;
+	
+}
+
+
+
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	border-top: 1px solid grey;
+	width: 100%;
+}
+
+
 
